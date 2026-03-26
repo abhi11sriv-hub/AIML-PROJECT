@@ -1,0 +1,38 @@
+# Data (too large for git)
+data/loan.csv
+data/*.csv
+data/*.parquet
+
+# Models (generated)
+models/*.pkl
+models/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports / figures (generated — optionally commit)
+# reports/figures/
